@@ -1,0 +1,24 @@
+[package]
+name = "twitchbox"
+version = "1.0.0"
+description = "An unofficial client for Twitch.tv"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "1.2.1", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+tauri-bundler = "1.1.2"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "1.2.4", features = ["shell-open", "window-set-fullscreen", "window-set-resizable"] }
+
+[features]
+# this feature is used for production builds or when `devPath` points to the filesystem
+# DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"]

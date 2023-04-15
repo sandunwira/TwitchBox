@@ -1,0 +1,103 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "TwitchBox",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "window": {
+        "all": false,
+        "print": false,
+        "setFullscreen": true,
+        "setResizable": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "com.twitchbox.app",
+      "longDescription": "An opensource client for Twitch.tv",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "An opensource client for Twitch.tv",
+      "targets": "all",
+      "appimage": {
+        "bundleMediaFramework": true
+      },
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
+        "allowDowngrades": false,
+        "wix": {
+          "language": "en-US",
+          "dialogImagePath": "../src/assets/dialogImage.bmp",
+          "bannerPath": "../src/assets/banner.bmp"
+        }
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false,
+      "dialog": true,
+      "windows": {
+        "installMode": "basicUi"
+      },
+      "pubkey": ""
+    },
+    "windows": [
+      {
+        "title": "TwitchBox",
+        "width": 1500,
+        "height": 750,
+        "url": "https://twitch.tv",
+        "fullscreen": false,
+        "focus": true,
+        "resizable": true,
+        "decorations": true,
+        "center": true,
+        "visible": false
+      },
+      {
+        "title": "TwitchBox",
+        "width": 525,
+        "height": 200,
+        "url": "splashscreen.html",
+        "label": "splashscreen",
+        "fullscreen": false,
+        "focus": true,
+        "alwaysOnTop": true,
+        "resizable": false,
+        "decorations": false,
+        "center": true,
+        "skipTaskbar": false
+      }
+    ]
+  }
+}

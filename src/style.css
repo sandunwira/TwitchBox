@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: #6441A5;
+}
+
+html{
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+	user-select: none;
+}
+
+.splashscreen{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splashscreen img{
+  height: 60px;
+}
