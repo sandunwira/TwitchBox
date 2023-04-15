@@ -1,4 +1,4 @@
-[![]()](https://github.com/sandunwira/TwitchBox)
+[![twitchbox gh](https://user-images.githubusercontent.com/79461263/232226503-3049cb81-e2e5-491c-ae5f-7d1199576fef.png)](https://github.com/sandunwira/TwitchBox)
 
 
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/sandunwira/TwitchBox?include_prereleases&style=for-the-badge)](https://github.com/sandunwira/TwitchBox/releases/latest)
