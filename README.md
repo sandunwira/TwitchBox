@@ -39,7 +39,7 @@
 - **Use less resources.**
   - You don't need to install anything extra to use this client since WebView is pre-installed with new Windows.
 - **Your privacy matters.**
-  - The app uses official YouTube website to show content so we don't get or store anything related about your personal data.
+  - The app uses official Twitch.tv website to show content so we don't get or store anything related about your personal data.
 
 <hr>
 
