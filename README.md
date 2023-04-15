@@ -44,6 +44,26 @@
 <hr>
 
 
+### SCREENSHOTS
+
+![Splashscreen](https://user-images.githubusercontent.com/79461263/232255621-d91b5f13-4d8a-4c3f-ba3f-69494ce364ce.png)
+**`SPLASHSCREEN`**
+
+![Screenshot1](https://user-images.githubusercontent.com/79461263/232255637-bed0648a-c4b5-44f9-8dc4-bb7b59b897c1.png)
+[**`LINK TO THE PROFILE`**](https://twitch.tv/xqc)
+
+![Screenshot2](https://user-images.githubusercontent.com/79461263/232255657-ff77edda-b187-4467-a346-3041b0043b11.png)
+[**`LINK TO THE PROFILE`**](https://twitch.tv/shroud)
+
+![Screenshot3](https://user-images.githubusercontent.com/79461263/232255668-4ead1c06-bb9f-46ef-a91b-f20aecfe9baf.png)
+[**`LINK TO THE PROFILE`**](https://twitch.tv/the8bitdrummer)
+
+![Screenshot4](https://user-images.githubusercontent.com/79461263/232255693-36fe2cbe-a342-4707-b2de-4970e24c2b86.png)
+[**`LINK TO THE PROFILE`**](https://twitch.tv/bobross)
+
+<hr>
+
+
 ### FEEDBACK
 If you have found any bugs in the client or if you have suggestions, please feel free to reach any of the links below.
 - [**GitHub Issue**](https://github.com/sandunwira/TwitchBox/issues)
