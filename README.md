@@ -2,13 +2,13 @@
 
 
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/sandunwira/TwitchBox?include_prereleases&style=for-the-badge)](https://github.com/sandunwira/TwitchBox/releases/latest)
-[![GitHub top language](https://img.shields.io/github/languages/top/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/SupTube)
-[![GitHub Repo stars](https://img.shields.io/github/stars/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/SupTube/stargazers)
-[![GitHub all releases](https://img.shields.io/github/downloads/sandunwira/TwitchBox/total?style=for-the-badge)](https://github.com/sandunwira/SupTube/releases)
-[![SourceForge](https://img.shields.io/sourceforge/dt/twitchbox.svg?style=for-the-badge)](https://sourceforge.net/projects/suptube/files)
-[![GitHub](https://img.shields.io/github/license/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/SupTube/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues-raw/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/SupTube/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/SupTube/commit/main)
+[![GitHub top language](https://img.shields.io/github/languages/top/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/TwitchBox)
+[![GitHub Repo stars](https://img.shields.io/github/stars/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/TwitchBox/stargazers)
+[![GitHub all releases](https://img.shields.io/github/downloads/sandunwira/TwitchBox/total?style=for-the-badge)](https://github.com/sandunwira/TwitchBox/releases)
+[![SourceForge](https://img.shields.io/sourceforge/dt/twitchbox.svg?style=for-the-badge)](https://sourceforge.net/projects/twitchbox/files)
+[![GitHub](https://img.shields.io/github/license/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/TwitchBox/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues-raw/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/TwitchBox/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/sandunwira/TwitchBox?style=for-the-badge)](https://github.com/sandunwira/TwitchBox/commit/main)
 
 
 **[TwitchBox](https://twitchbox.repl.co)** is a lightweight Windows client created to enhance the **[Twitch.tv](https://twitch.tv)** experience. The app uses the **[Tauri](https://tauri.app)** framework, which includes a combination of **[Rust](https://rust-lang.org)** language and **[WebView2](https://learn.microsoft.com/en-us/microsoft-edge/webview2)** engine to show Twitch Livestreams.
