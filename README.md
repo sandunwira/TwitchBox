@@ -47,7 +47,6 @@
 ### SCREENSHOTS
 
 ![Splashscreen](https://user-images.githubusercontent.com/79461263/232255621-d91b5f13-4d8a-4c3f-ba3f-69494ce364ce.png)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsandunwira%2FTwitchBox.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsandunwira%2FTwitchBox?ref=badge_shield)
 **`SPLASHSCREEN`**
 
 ![Screenshot1](https://user-images.githubusercontent.com/79461263/232255637-bed0648a-c4b5-44f9-8dc4-bb7b59b897c1.png)
@@ -74,12 +73,14 @@ If you have found any bugs in the client or if you have suggestions, please feel
 <hr>
 
 
+### LICENSE
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsandunwira%2FTwitchBox.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsandunwira%2FTwitchBox?ref=badge_large)
+
+<hr>
+
+
 #### SPREAD THE WORD :)
 
 ```
 https://github.com/sandunwira/TwitchBox
 ```
-
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsandunwira%2FTwitchBox.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsandunwira%2FTwitchBox?ref=badge_large)
