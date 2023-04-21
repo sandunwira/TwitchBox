@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "TwitchBox",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "tauri": {
     "allowlist": {
@@ -37,8 +37,8 @@
         "icons/icon.ico"
       ],
       "identifier": "com.twitchbox.app",
-      "longDescription": "An opensource client for Twitch.tv",
-      "shortDescription": "An opensource client for Twitch.tv",
+      "longDescription": "An opensource Windows client for Twitch.tv",
+      "shortDescription": "An opensource Windows client for Twitch.tv",
       "resources": [],
       "externalBin": [],
       "targets": "all",
