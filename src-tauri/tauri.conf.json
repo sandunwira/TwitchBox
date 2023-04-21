@@ -102,7 +102,6 @@
         "label": "splashscreen",
         "fullscreen": false,
         "focus": true,
-        "alwaysOnTop": true,
         "resizable": false,
         "decorations": false,
         "center": true,
