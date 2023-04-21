@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "TwitchBox",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -26,6 +26,9 @@
     },
     "bundle": {
       "active": true,
+      "publisher": "Sandun Wiratunga",
+      "copyright": "Sandun Wiratunga",
+      "category": "Entertainment",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -35,6 +38,13 @@
       ],
       "identifier": "com.twitchbox.app",
       "longDescription": "An opensource client for Twitch.tv",
+      "shortDescription": "An opensource client for Twitch.tv",
+      "resources": [],
+      "externalBin": [],
+      "targets": "all",
+      "deb": {
+        "depends": []
+      },
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -42,9 +52,6 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "resources": [],
-      "shortDescription": "An opensource client for Twitch.tv",
-      "targets": "all",
       "appimage": {
         "bundleMediaFramework": true
       },
@@ -64,12 +71,15 @@
       "csp": null
     },
     "updater": {
-      "active": false,
+      "active": true,
       "dialog": true,
+      "endpoints": [
+        "https://twitchbox.repl.co/updater.json"
+      ],
       "windows": {
         "installMode": "basicUi"
       },
-      "pubkey": ""
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDlERDQxNEVERjQxRkQ3M0UKUldRKzF4LzA3UlRVblF0NzdJNnpBTWZlM0c3VVA4SjBVTWl6TmFCNE8yTE5lYXNyY3AyaWFiK1oK"
     },
     "windows": [
       {
