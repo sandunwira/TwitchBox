@@ -3,12 +3,6 @@
 	windows_subsystem = "windows"
 )]
 
-#[derive(Clone, serde::Serialize)]
-struct Payload {
-	args: Vec<String>,
-	cwd: String,
-}
-
 use tauri::Manager;
 
 fn main() {
@@ -53,10 +47,6 @@ fn main() {
 		});
 		Ok(())
 	})
-	.plugin(tauri_plugin_single_instance::init(|app, argv, cwd| {
-		println!("{}, {argv:?}, {cwd}", app.package_info().name);
-		app.emit_all("single-instance", Payload { args: argv, cwd }).unwrap();
-	}))
 	.run(tauri::generate_context!())
 	.expect("failed to run app");
 }
