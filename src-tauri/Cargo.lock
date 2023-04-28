@@ -345,9 +345,9 @@ dependencies = [
 
 [[package]]
 name = "bumpalo"
-version = "3.12.0"
+version = "3.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0d261e256854913907f67ed06efbc3338dfe6179796deefc1ff763fc1aee5535"
+checksum = "9b1ce199063694f33ffb7dd4e0ee620741495c32833cde5aa08f02a0bf96f0c8"
 
 [[package]]
 name = "bytemuck"
@@ -1756,9 +1756,9 @@ dependencies = [
 
 [[package]]
 name = "linux-raw-sys"
-version = "0.3.3"
+version = "0.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9b085a4f2cde5781fc4b1717f2e86c62f5cda49de7ba99a7c2eae02b61c9064c"
+checksum = "2e8776872cdc2f073ccaab02e336fa321328c1e02646ebcb9d2108d0baab480d"
 
 [[package]]
 name = "lock_api"
@@ -2108,9 +2108,9 @@ dependencies = [
 
 [[package]]
 name = "openssl"
-version = "0.10.51"
+version = "0.10.52"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97ea2d98598bf9ada7ea6ee8a30fb74f9156b63bbe495d64ec2b87c269d2dda3"
+checksum = "01b8574602df80f7b85fdfc5392fa884a4e3b3f4f35402c070ab34c3d3f78d56"
 dependencies = [
  "bitflags",
  "cfg-if",
@@ -2140,9 +2140,9 @@ checksum = "ff011a302c396a5197692431fc1948019154afc178baf7d8e37367442a4601cf"
 
 [[package]]
 name = "openssl-sys"
-version = "0.9.86"
+version = "0.9.87"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "992bac49bdbab4423199c654a5515bd2a6c6a23bf03f2dd3bdb7e5ae6259bc69"
+checksum = "8e17f59264b2809d77ae94f0e1ebabc434773f370d6ca667bd223ea10e06cc7e"
 dependencies = [
  "cc",
  "libc",
@@ -2263,9 +2263,9 @@ checksum = "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e"
 
 [[package]]
 name = "pest"
-version = "2.5.7"
+version = "2.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b1403e8401ad5dedea73c626b99758535b342502f8d1e361f4a2dd952749122"
+checksum = "e68e84bfb01f0507134eac1e9b410a12ba379d064eab48c50ba4ce329a527b70"
 dependencies = [
  "thiserror",
  "ucd-trie",
@@ -2273,9 +2273,9 @@ dependencies = [
 
 [[package]]
 name = "pest_derive"
-version = "2.5.7"
+version = "2.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "be99c4c1d2fc2769b1d00239431d711d08f6efedcecb8b6e30707160aee99c15"
+checksum = "6b79d4c71c865a25a4322296122e3924d30bc8ee0834c8bfc8b95f7f054afbfb"
 dependencies = [
  "pest",
  "pest_generator",
@@ -2283,9 +2283,9 @@ dependencies = [
 
 [[package]]
 name = "pest_generator"
-version = "2.5.7"
+version = "2.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e56094789873daa36164de2e822b3888c6ae4b4f9da555a1103587658c805b1e"
+checksum = "6c435bf1076437b851ebc8edc3a18442796b30f1728ffea6262d59bbe28b077e"
 dependencies = [
  "pest",
  "pest_meta",
@@ -2296,9 +2296,9 @@ dependencies = [
 
 [[package]]
 name = "pest_meta"
-version = "2.5.7"
+version = "2.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6733073c7cff3d8459fda0e42f13a047870242aed8b509fe98000928975f359e"
+checksum = "745a452f8eb71e39ffd8ee32b3c5f51d03845f99786fa9b68db6ff509c505411"
 dependencies = [
  "once_cell",
  "pest",
@@ -2783,9 +2783,9 @@ dependencies = [
 
 [[package]]
 name = "rustix"
-version = "0.37.13"
+version = "0.37.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f79bef90eb6d984c72722595b5b1348ab39275a5e5123faca6863bf07d75a4e0"
+checksum = "a0661814f891c57c930a610266415528da53c4933e6dea5fb350cbfe048a9ece"
 dependencies = [
  "bitflags",
  "errno",
@@ -3302,9 +3302,9 @@ dependencies = [
 
 [[package]]
 name = "target-lexicon"
-version = "0.12.6"
+version = "0.12.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8ae9980cab1db3fceee2f6c6f643d5d8de2997c58ee8d25fb0cc8a9e9e7348e5"
+checksum = "fd1ba337640d60c3e96bc6f0638a939b9c9a7f2c316a1598c279828b3d1dc8c5"
 
 [[package]]
 name = "tauri"
@@ -3466,8 +3466,8 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-single-instance"
-version = "0.1.0"
-source = "git+https://github.com/tauri-apps/plugins-workspace?branch=dev#7acf865ffbb82c6d00334926a4527dd5ff3163a4"
+version = "0.0.0"
+source = "git+https://github.com/tauri-apps/plugins-workspace?branch=dev#46f4a949c93fbefcbf9d0e2d77e72d637876669d"
 dependencies = [
  "log",
  "serde",
@@ -3661,15 +3661,15 @@ checksum = "1f3ccbac311fea05f86f61904b462b55fb3df8837a366dfc601a0161d0532f20"
 
 [[package]]
 name = "tokio"
-version = "1.27.0"
+version = "1.28.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d0de47a4eecbe11f498978a9b29d792f0d2692d1dd003650c24c76510e3bc001"
+checksum = "c3c786bf8134e5a3a166db9b29ab8f48134739014a3eca7bc6bfa95d673b136f"
 dependencies = [
  "autocfg",
  "bytes",
  "num_cpus",
  "pin-project-lite",
- "windows-sys 0.45.0",
+ "windows-sys 0.48.0",
 ]
 
 [[package]]
@@ -3717,11 +3717,10 @@ dependencies = [
 
 [[package]]
 name = "tracing"
-version = "0.1.37"
+version = "0.1.38"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8"
+checksum = "cf9cf6a813d3f40c88b0b6b6f29a5c95c6cdbf97c1f9cc53fb820200f5ad814d"
 dependencies = [
- "cfg-if",
  "pin-project-lite",
  "tracing-attributes",
  "tracing-core",
@@ -3729,13 +3728,13 @@ dependencies = [
 
 [[package]]
 name = "tracing-attributes"
-version = "0.1.23"
+version = "0.1.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4017f8f45139870ca7e672686113917c71c7a6e02d4924eda67186083c03081a"
+checksum = "0f57e3ca2a01450b1a921183a9c9cbfda207fd822cef4ccb00a65402cbba7a74"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 1.0.109",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -3761,9 +3760,9 @@ dependencies = [
 
 [[package]]
 name = "tracing-subscriber"
-version = "0.3.16"
+version = "0.3.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a6176eae26dd70d0c919749377897b54a9276bd7061339665dd68777926b5a70"
+checksum = "30a651bc37f915e81f087d86e62a18eec5f79550c7faff886f7090b4ea757c77"
 dependencies = [
  "matchers",
  "nu-ansi-term",
