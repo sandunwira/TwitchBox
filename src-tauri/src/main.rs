@@ -14,7 +14,6 @@ struct Payload {
 fn main() {
 	tauri::Builder::default()
 	.setup(|app| {
-		let splashscreen_window = app.get_window("splashscreen").unwrap();
 		let main_window = app.get_window("main").unwrap();
 
 		// DISABLE RELOAD ======================================================================== //
@@ -40,19 +39,9 @@ fn main() {
 		main_window.eval("window.addEventListener('auxclick', function(e) {if (e.button == 1) { e.preventDefault(); }});").unwrap();
 		// DISABLE RIGHT CLICK =================================================================== //
 		main_window.eval("window.addEventListener('contextmenu', function(e) { e.preventDefault(); });").unwrap();
-
-		// WE PERFORM THE INITIALIZATION CODE ON A NEW TASK SO THE APP DOESN'T FREEZE ============ //
-		tauri::async_runtime::spawn(async move {
-			// INITIALIZE YOUR APP HERE INSTEAD OF SLEEPING :) ===================================== //
-			println!("Initializing...");
-			std::thread::sleep(std::time::Duration::from_secs(5));
-			println!("Done initializing.");
-			// AFTER IT'S DONE, CLOSE THE SPLASHSCREEN AND DISPLAY THE MAIN WINDOW ================= //
-			splashscreen_window.close().unwrap();
-			main_window.show().unwrap();
-		});
 		Ok(())
 	})
+	.plugin(tauri_plugin_window_state::Builder::default().build())
 	.plugin(tauri_plugin_single_instance::init(|app, argv, cwd| {
 		println!("{}, {argv:?}, {cwd}", app.package_info().name);
 		app.emit_all("single-instance", Payload { args: argv, cwd }).unwrap();

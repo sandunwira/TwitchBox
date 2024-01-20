@@ -1,6 +1,6 @@
 [package]
 name = "twitchbox"
-version = "1.2.0"
+version = "1.3.0"
 description = "An opensource Windows client for Twitch.tv"
 authors = ["Sandun Wiratunga"]
 license = "MIT"
@@ -19,6 +19,7 @@ tauri-bundler = "1.4.5"
 serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.5.2", features = ["shell-open", "updater", "window-set-fullscreen", "window-set-resizable"] }
 tauri-plugin-single-instance = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "dev" }
+tauri-plugin-window-state = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "dev" }
 
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem

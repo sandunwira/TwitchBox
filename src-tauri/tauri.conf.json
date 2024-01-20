@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "TwitchBox",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "tauri": {
     "allowlist": {
@@ -84,28 +84,14 @@
     "windows": [
       {
         "title": "TwitchBox",
-        "width": 1500,
-        "height": 750,
+        "minWidth": 1400,
+        "minHeight": 700,
         "url": "https://twitch.tv",
         "fullscreen": false,
         "focus": true,
         "resizable": true,
         "decorations": true,
-        "center": true,
-        "visible": false
-      },
-      {
-        "title": "TwitchBox",
-        "width": 525,
-        "height": 200,
-        "url": "splashscreen.html",
-        "label": "splashscreen",
-        "fullscreen": false,
-        "focus": true,
-        "resizable": false,
-        "decorations": false,
-        "center": true,
-        "skipTaskbar": false
+        "center": true
       }
     ]
   }
