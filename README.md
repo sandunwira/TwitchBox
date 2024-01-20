@@ -46,9 +46,6 @@
 
 ### SCREENSHOTS
 
-![Splashscreen](https://user-images.githubusercontent.com/79461263/232255621-d91b5f13-4d8a-4c3f-ba3f-69494ce364ce.png)
-**`SPLASHSCREEN`**
-
 ![Screenshot1](https://user-images.githubusercontent.com/79461263/232255637-bed0648a-c4b5-44f9-8dc4-bb7b59b897c1.png)
 [**`LINK TO THE PROFILE`**](https://twitch.tv/xqc)
 
